@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+body{
+  background-color: #f0f0f5;
+}
+div#showgrid {
+  width: 498px;
+  height: auto;
+  margin:0 auto;
+}
+
+div.column {
+  border-style: solid;
+  border-width: 1px;
+  width: 160px;
+  height: 160px;
+  display: inline;
+  float: left;
+  margin: auto;
+  border-radius: 8px;
+  line-height: 200px;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Permanent Marker';
+  cursor: pointer;
+  background-color: #00ffff;
+}
+.column:hover{
+  background-color: #99ccff
+}
+
+h1{
+  text-align: center;
+  background-color: #ff0000;
+  border-radius: 5px;
+  font-family: 'Oxanium';
+}
+
+#reset{
+  width:200px;
+  text-align: center;
+  height: 40px;
+  margin: 50px 600px;
+  padding: 5px;
+  border: 2px solid black;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: 'Oxanium';
+  letter-spacing: 5px;
+  background-color: #9999ff;
+  box-shadow: 8px 3px;
+  color:white;
+  cursor: pointer;
+}
