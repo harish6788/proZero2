@@ -14,7 +14,7 @@ Tic-Tac-Toe
 * [Contact](#contact)
 
 ## LiveDemoLink
-![LiveDemoLink](https://harish6788.github.io/proZero2/)
+[LiveDemoLink](https://harish6788.github.io/proZero2/)
 
 ## Description
 This is a simple game of tic tac toe that I has been created with javascript/jquery. This can be played as a two player game against each other with a simple UserInterface and mild CSS effects.
@@ -23,7 +23,7 @@ This is a simple game of tic tac toe that I has been created with javascript/jqu
 ![Game screenshot](./images/TTT.png)
 
 ## Technologies
-![jQuery JavaScript Library v3.4.1 ](https://jquery.com/)
+[jQuery JavaScript Library v3.4.1 ](https://jquery.com/)
 
 ## Setup
 <h5>To Play the game</h5>
