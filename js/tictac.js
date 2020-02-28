@@ -51,56 +51,32 @@ const input = function(){
 $('.column').on('click',input);
 
 const winCheck = function(){
-  if(d1.text() === "X" && d2.text() === "X" && d3.text() === "X"){//123 x/
-    alert("X win..!");
-    resultAttained = true;
-  }else if(d1.text() === "O" && d2.text() === "O" && d3.text() === "O"){//123 o/
-    alert("O Win..!");
-    resultAttained = true;
-  }else if(d4.text() === "X" && d5.text() === "X" && d6.text() === "X"){//456 x/
-    alert("X win..!");
-    resultAttained = true;
-  }else if(d4.text() === "O" && d5.text() === "O" && d6.text() === "O"){//456 o/
-    alert("O win..!");
-    resultAttained = true;
-  }else if(d7.text() === "X" && d8.text() === "X" && d9.text() === "X"){//789 x/
-    alert("X win..!");
-    resultAttained = true;
-  }else if(d7.text() === "O" && d8.text() === "O" && d9.text() === "O"){//789 O/
-    alert("O win..!");
-    resultAttained = true;
-  }else if(d7.text() === "X" && d1.text() === "X" && d4.text() === "X"){//147 x/
-    alert("X win..!");
-    resultAttained = true;
-  }else if(d7.text() === "O" && d1.text() === "O" && d4.text() === "O"){//147 O/
-    alert("O win..!");
-    resultAttained = true;
-  }else if(d2.text() === "X" && d5.text() === "X" && d8.text() === "X"){//258  x/
-    alert("X win..!");
-    resultAttained = true;
-  }else if(d2.text() === "O" && d5.text() === "O" && d8.text() === "O"){//258  O/
-    alert("O win..!");
-    resultAttained = true;
-  }else if(d3.text() === "X" && d6.text() === "X" && d9.text() === "X"){//369  x/
-    alert("X win..!");
-    resultAttained = true;
-  }else if(d3.text() === "O" && d6.text() === "O" && d9.text() === "O"){//369  O/
-    alert("O win..!");
-    resultAttained = true;
-  }else if(d1.text() === "X" && d5.text() === "X" && d9.text() === "X"){//159  x/
-    alert("X win..!");
-    resultAttained = true;
-  }else if(d1.text() === "O" && d5.text() === "O" && d9.text() === "O"){//159  O/
-    alert("O win..!");
-    resultAttained = true;
-  }else if(d3.text() === "X" && d5.text() === "X" && d7.text() === "X"){//357  x/
-    alert("X win..!");
-    resultAttained = true;
-  }else if(d3.text() === "O" && d5.text() === "O" && d7.text() === "O"){//357  O/
-    alert("O win..!");
-    resultAttained = true;
-  }else if (divClickCount === 9){
-    alert("Its a Draw")
-    resultAttained = true;
-  }
-};
+    if (d1.text()!== "" && d1.text()===d2.text() && d1.text()===d3.text()){
+      alert(`${d1.text()} win..!`);
+      resultAttained = true;
+    }else if(d4.text()!== "" && d4.text()===d5.text() && d4.text()===d6.text()){
+      alert(`${d4.text()} win..!`);
+      resultAttained = true;
+    }else if(d7.text()!== "" && d7.text()===d8.text() && d7.text()===d9.text()){
+      alert(`${d7.text()} win..!`);
+      resultAttained = true;
+    }else if(d1.text()!== "" && d1.text()===d4.text() && d1.text()===d7.text()){
+      alert(`${d1.text()} win..!`);
+      resultAttained = true;
+    }else if(d2.text()!== "" && d2.text()===d5.text() && d2.text()===d8.text()){
+      alert(`${d2.text()} win..!`);
+      resultAttained = true;
+    }else if(d3.text()!== "" && d3.text()===d6.text() && d3.text()===d9.text()){
+      alert(`${d3.text()} win..!`);
+      resultAttained = true;
+    }else if(d1.text()!== "" && d1.text()===d5.text() && d1.text()===d9.text()){
+      alert(`${d1.text()} win..!`);
+      resultAttained = true;
+    }else if(d3.text()!== "" && d3.text()===d5.text() && d3.text()===d7.text()){
+      alert(`${d3.text()} win..!`);
+      resultAttained = true;
+    }else if (divClickCount === 9){
+        alert("Its a Draw")
+        resultAttained = true;
+      }
+  };
